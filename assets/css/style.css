@@ -1,0 +1,80 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Header Content Style */
+
+header { /* Header class styling */
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #3c3636;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    position: relative;
+    font-size: 38px;
+    font-weight: lighter;
+    font-style:italic;
+}
+
+header nav { /* Nav-bar styling */
+    display: inline-block;
+    position: absolute;
+    margin-left: 350px;
+    font-family: monospace;
+}
+
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    margin-left: 40px;
+    font-size: 17px;
+}
+
+section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+#header-image {
+    height: 250px;
+    width: 100%;
+    background-image: url("../images/portfolio-bg.jpg");
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#avatar {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    border: solid;
+    border-color: black;
+    height:150px;
+    width: 150px;
+}
+
+/* Main Content Style */
+
+#about-me {
+    font-family: monospace;
+    color: #201f1f;
+}
